@@ -1,0 +1,1143 @@
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-04-19 05:54:12] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-04-19 05:54:12] [class-ss-setup-task.php:33] Creating archive directory: /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/
+[2025-04-19 05:54:12] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-19 05:54:12] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-19 05:54:12] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-04-19 05:54:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/
+[2025-04-19 05:54:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-04-19 05:54:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a84dc52d-j6OMwE.tmp
+[2025-04-19 05:54:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/?simply_static_page=1
+[2025-04-19 05:54:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/?simply_static_page=1
+[2025-04-19 05:54:12] [class-ss-url-fetcher.php:103] Filesize: 80968 bytes
+[2025-04-19 05:54:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-19 05:54:12] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2025-04-19 05:54:12] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a84dc52d-j6OMwE.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/index.html
+[2025-04-19 05:54:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:12] [class-ss-fetch-urls-task.php:158] Adding 40 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:0ce284b986cb0aa840eb12e449148cf1de0dd302===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:69] Total pages: 40; Pages remaining: 39
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/about/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a850abd4-URsIlm.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/about/?simply_static_page=2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/about/?simply_static_page=2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 68900 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: about/index.html
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a850abd4-URsIlm.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/about/index.html
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 33 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:45bf395efb9d7e9103a8550397377ff42fd5c296===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/tsnr-2026/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a851baaa-oTvM6A.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/tsnr-2026/?simply_static_page=3
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/tsnr-2026/?simply_static_page=3
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 68920 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: tsnr-2026/index.html
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a851baaa-oTvM6A.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/tsnr-2026/index.html
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 33 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:68589b55ff74bcde045dddb063c0fb9b8defda6e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/bylaws/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a852b82b-Wn5HZs.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/bylaws/?simply_static_page=4
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/bylaws/?simply_static_page=4
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 68905 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: bylaws/index.html
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a852b82b-Wn5HZs.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/bylaws/index.html
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 33 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:9c4de1680e2d07975b11768ae7b2c60b52aa1fa6===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/officer-elections/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a853bf33-vOcf0S.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/officer-elections/?simply_static_page=5
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/officer-elections/?simply_static_page=5
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 68666 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: officer-elections/index.html
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a853bf33-vOcf0S.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/officer-elections/index.html
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 34 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:b788d64bca0f22ca43d18043b5ae8f1159a3edd1===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM.png
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a854bb7b-Z3epDM.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM.png?simply_static_page=6
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM.png?simply_static_page=6
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 216224 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM.png
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a854bb7b-Z3epDM.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM.png
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:2cf6815b2dad2d3b6bdff194e1b9e18fa0a4df88===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM-300x199.png
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a854e03d-770TBX.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM-300x199.png?simply_static_page=7
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM-300x199.png?simply_static_page=7
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 37959 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM-300x199.png
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a854e03d-770TBX.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM-300x199.png
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:68a2f4c49323d4e9b7ed7dd246dd7d670ab9c8f2===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/images/banner.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a854fb47-XmuTb6.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/images/banner.jpg?simply_static_page=8
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/images/banner.jpg?simply_static_page=8
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 321594 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/images/banner.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a854fb47-XmuTb6.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/images/banner.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:0a126ee8f2421128cac69b867883f4da019943c0===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/woodlands2-scaled.avif
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8552047-LEab8a.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/woodlands2-scaled.avif?simply_static_page=9
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/woodlands2-scaled.avif?simply_static_page=9
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 668420 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/avif
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/woodlands2-scaled.avif
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8552047-LEab8a.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/woodlands2-scaled.avif
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:9f909a23749db9af0a13360f6b4dc3cd633c96c2===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/woodlands2-300x199.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85547b6-xCSubS.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/woodlands2-300x199.jpg?simply_static_page=10
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/woodlands2-300x199.jpg?simply_static_page=10
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 15797 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/woodlands2-300x199.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85547b6-xCSubS.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/woodlands2-300x199.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:bd2770cacf1c9a087d7bd410e8b86650db71e9dd===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/woodlands2-1024x680.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a855627f-KQeL7f.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/woodlands2-1024x680.jpg?simply_static_page=11
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/woodlands2-1024x680.jpg?simply_static_page=11
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 139067 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/woodlands2-1024x680.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a855627f-KQeL7f.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/woodlands2-1024x680.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:6da4ac79cd000550aee074e0f242518c24d2c7af===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/woodlands2-768x510.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8557f69-5ahVko.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/woodlands2-768x510.jpg?simply_static_page=12
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/woodlands2-768x510.jpg?simply_static_page=12
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 83713 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/woodlands2-768x510.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8557f69-5ahVko.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/woodlands2-768x510.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:dc4f4d02473729c64b3a31d8dde00b74421d0c4b===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/woodlands2-1536x1020.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8559a2c-pTjiFd.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/woodlands2-1536x1020.jpg?simply_static_page=13
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/woodlands2-1536x1020.jpg?simply_static_page=13
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 284185 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/woodlands2-1536x1020.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8559a2c-pTjiFd.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/woodlands2-1536x1020.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:f28116c283f323b1d950c541943c89c11fd1236a===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/uploads/2025/04/woodlands2-2048x1360.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a855bc35-rAUtmS.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/uploads/2025/04/woodlands2-2048x1360.jpg?simply_static_page=14
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/uploads/2025/04/woodlands2-2048x1360.jpg?simply_static_page=14
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 469911 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/04/woodlands2-2048x1360.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a855bc35-rAUtmS.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/uploads/2025/04/woodlands2-2048x1360.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:0ac1fad74146d5fbacb7a7b8c2470cb09975ee48===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/images/about.jpg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a855e5ab-avDmZp.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/images/about.jpg?simply_static_page=15
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/images/about.jpg?simply_static_page=15
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 92714 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/images/about.jpg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a855e5ab-avDmZp.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/images/about.jpg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:904b1764ea78487c717e9f0b888bfbdd5b064f31===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/js/jquery/jquery.min.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85604cc-PdrSD4.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/js/jquery/jquery.min.js?simply_static_page=16
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/js/jquery/jquery.min.js?simply_static_page=16
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/jquery/jquery.min.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85604cc-PdrSD4.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/js/jquery/jquery.min.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8562e62-CpczU8.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=17
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=17
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8562e62-CpczU8.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8564934-S5FTeP.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/js/jquery-sticky.js?simply_static_page=18
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/js/jquery-sticky.js?simply_static_page=18
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 10371 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8564934-S5FTeP.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:87d896f9fef6fbe3bf21ebade6385d947bcdda50===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/js/wow.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8566618-fl5oAo.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/js/wow.js?simply_static_page=19
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/js/wow.js?simply_static_page=19
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 18009 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/js/wow.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8566618-fl5oAo.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/js/wow.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:50a0362cd4bc185f018dbe9981e0ddc8497f5570===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8568229-Jrbuv9.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/js/jquery-sticky.js?simply_static_page=20
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/js/jquery-sticky.js?simply_static_page=20
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 10371 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8568229-Jrbuv9.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:87d896f9fef6fbe3bf21ebade6385d947bcdda50===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8569b8e-zZNTga.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=21
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=21
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 3358 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8569b8e-zZNTga.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:ccc3e4d82490e24c5bab603beb04961ba3225571===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a856bea4-V42paZ.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/js/script.js?simply_static_page=22
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/js/script.js?simply_static_page=22
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 1012 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a856bea4-V42paZ.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:d91c0c41e5aaf00df1c073a9951b2772145856f1===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a856d870-dXIh4G.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/js/script.js?simply_static_page=23
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/js/script.js?simply_static_page=23
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 1015 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a856d870-dXIh4G.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:e9f6e23707357fa608912f6b614a3c7d1c1d414d===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/feed/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/feed/
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/comments/feed/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/comments/feed/
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/navigation/style.min.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a857023e-A6JITS.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/navigation/style.min.css?simply_static_page=26
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/navigation/style.min.css?simply_static_page=26
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 16449 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/navigation/style.min.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a857023e-A6JITS.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/blocks/navigation/style.min.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:8562935219e2b4299d36f0304c0382ee16390a9e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/cover/style.min.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8572406-pR1I0E.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/cover/style.min.css?simply_static_page=27
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/cover/style.min.css?simply_static_page=27
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 19126 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/cover/style.min.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8572406-pR1I0E.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/blocks/cover/style.min.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:4dcca32b8b9143635264dccf437b80e1acf6525e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/blocks/social-links/style.min.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a857450a-rMrhQ4.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/blocks/social-links/style.min.css?simply_static_page=28
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/blocks/social-links/style.min.css?simply_static_page=28
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 11740 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/social-links/style.min.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a857450a-rMrhQ4.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/blocks/social-links/style.min.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:43c91c8019360dad76b7c92826e866b30327ccf5===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85766be-u9Lxyj.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/css/all.css?simply_static_page=29
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/css/all.css?simply_static_page=29
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 78244 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85766be-u9Lxyj.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:2066a364e168f29fc02dd78127ffde21ed754229===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/style.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a857e4f3-HA6Qqs.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/style.css?simply_static_page=30
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/style.css?simply_static_page=30
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 10284 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/style.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a857e4f3-HA6Qqs.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/style.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:5da669678a4c85aee3ec8807be74a307bab9f719===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/style.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8580337-dh35xo.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/style.css?simply_static_page=31
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/style.css?simply_static_page=31
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 12052 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/style.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8580337-dh35xo.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/style.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:40511383d79327d8bbf097fa2f5ee52e3439f9c5===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a858210d-7r5Yjt.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/css/all.css?simply_static_page=32
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/css/all.css?simply_static_page=32
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 78244 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a858210d-7r5Yjt.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:e7f216ecff4b90763b63491ccf20aea9091d7cc2===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/css/animate.css
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8589672-7I1ftH.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/css/animate.css?simply_static_page=33
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/css/animate.css?simply_static_page=33
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 99444 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/css/animate.css
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8589672-7I1ftH.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/css/animate.css
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:16e99bf26183e4dc5af34bf0ecb35d6b51dde8ec===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/xmlrpc.php
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/xmlrpc.php
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a858cbd8-25Cmc9.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=36
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=36
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 38256 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a858cbd8-25Cmc9.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:3b35f410e88cf8d8014baa7612653e6a1768ae2b===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Light.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a858ef8f-KREzEE.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Light.ttf?simply_static_page=37
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Light.ttf?simply_static_page=37
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 167000 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Light.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a858ef8f-KREzEE.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Light.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:02970068cbc5b4daf5b530e994a5b6f547d03bc1===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Regular.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8590e92-joMC3X.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Regular.ttf?simply_static_page=38
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Regular.ttf?simply_static_page=38
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 168260 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Regular.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8590e92-joMC3X.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Regular.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:ce57fc6c6705cb20661ac325fac5d4598b6efbca===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Medium.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8592ce6-OtpPew.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Medium.ttf?simply_static_page=39
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Medium.ttf?simply_static_page=39
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 168644 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Medium.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8592ce6-OtpPew.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Medium.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:0ee6b0bd5ff6fe30e4ef720a08e38656dc60985f===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Bold.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 40
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a8594ca4-gPgH3O.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Bold.ttf?simply_static_page=40
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Bold.ttf?simply_static_page=40
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 167336 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Bold.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a8594ca4-gPgH3O.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Bold.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:1e8baa650d943f2b78f1b77dbfe3ba1fb590e21a===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 40 pages/files
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:69] Total pages: 75; Pages remaining: 35
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/pages/26
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/pages/26
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/oembed/1.0/embed
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/oembed/1.0/embed
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/pages/28
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/pages/28
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/pages/30
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/pages/30
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-json/wp/v2/pages/32
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/wp-json/wp/v2/pages/32
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a859a4c9-BJx0xJ.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.eot?simply_static_page=46
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.eot?simply_static_page=46
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 134346 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a859a4c9-BJx0xJ.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:a400bc89d3cb4d45a3b90791800587a1e4ebafa6===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a859c452-7ZoEuf.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff2?simply_static_page=47
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff2?simply_static_page=47
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 76764 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a859c452-7ZoEuf.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:fce0da592a3e536d6d5df5b50cb513398d8c5161===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a859df73-eho9Kh.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff?simply_static_page=48
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff?simply_static_page=48
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 90060 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a859df73-eho9Kh.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:5f8cab91347c553c1eb87f9b527f6bee8a28e40d===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a859fbfa-VjD3xd.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.ttf?simply_static_page=49
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.ttf?simply_static_page=49
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 134040 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a859fbfa-VjD3xd.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:3fa2d67cef22da5c3f3eb5730c6afbd6fecf0372===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85a1a19-hpXFDO.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.svg?simply_static_page=50
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.svg?simply_static_page=50
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 343 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85a1a19-hpXFDO.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:d8217e13b1d13ef8714efd182160bd79484c8af4===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85a37d3-fXTBfP.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.eot?simply_static_page=51
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.eot?simply_static_page=51
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 34034 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85a37d3-fXTBfP.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:894064dfd376fc245fe654723d6c81f625e01363===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85a5303-a4Sq8H.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff2?simply_static_page=52
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff2?simply_static_page=52
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 13276 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85a5303-a4Sq8H.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:0447c6b10bbf73f97b23dcfd6e6a48510822cb6e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85a6c9e-ZH4JvC.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff?simply_static_page=53
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff?simply_static_page=53
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 16276 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85a6c9e-ZH4JvC.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:d33d8b5b15b7bba2cc17190dc685fe0a76d2989e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85a864f-r8sNSG.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.ttf?simply_static_page=54
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.ttf?simply_static_page=54
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 33736 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85a864f-r8sNSG.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:7d849a3981a716e2ba4a84634bc57d0b8054a6a3===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85a9fd6-mdXKay.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.svg?simply_static_page=55
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.svg?simply_static_page=55
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 145515 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85a9fd6-mdXKay.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:15fa4db31448d82136c48899ffa05423ff3f6e2b===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85ac56a-tMnV5P.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.eot?simply_static_page=56
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.eot?simply_static_page=56
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 203030 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85ac56a-tMnV5P.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:b18bdd10beee0a20231aa4c9ea11e84a9307a4fd===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85ae50f-yWaeQW.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff2?simply_static_page=57
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff2?simply_static_page=57
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 78196 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85ae50f-yWaeQW.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:a9922842a120a7f1eaced667480c5e185a106d69===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85b0189-0Amjbd.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff?simply_static_page=58
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff?simply_static_page=58
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 101652 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85b0189-0Amjbd.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:52751432ded489dfdf27fb1cf64c570c4c27a1d7===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85b42df-74Rukf.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.ttf?simply_static_page=59
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.ttf?simply_static_page=59
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 202744 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85b42df-74Rukf.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:c1b9fae262f42868c075ac865a8ab34920e20a2c===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85b616e-L2bs17.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.svg?simply_static_page=60
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.svg?simply_static_page=60
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 346 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85b616e-L2bs17.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:b86600b090fa249c47136c99a952f6e737954d92===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85b7fdf-NeCz7T.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.eot?simply_static_page=61
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.eot?simply_static_page=61
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 134346 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85b7fdf-NeCz7T.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:a400bc89d3cb4d45a3b90791800587a1e4ebafa6===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85b9ce1-elYGME.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff2?simply_static_page=62
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff2?simply_static_page=62
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 76764 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85b9ce1-elYGME.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:fce0da592a3e536d6d5df5b50cb513398d8c5161===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85bb89e-4iMm7z.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff?simply_static_page=63
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff?simply_static_page=63
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 90060 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85bb89e-4iMm7z.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:5f8cab91347c553c1eb87f9b527f6bee8a28e40d===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85bd9f6-x6056v.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.ttf?simply_static_page=64
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.ttf?simply_static_page=64
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 134040 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85bd9f6-x6056v.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:3fa2d67cef22da5c3f3eb5730c6afbd6fecf0372===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85c01c0-RfYtka.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.svg?simply_static_page=65
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.svg?simply_static_page=65
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 343 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85c01c0-RfYtka.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:d8217e13b1d13ef8714efd182160bd79484c8af4===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85c2825-zmPSRR.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.eot?simply_static_page=66
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.eot?simply_static_page=66
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 34034 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85c2825-zmPSRR.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:894064dfd376fc245fe654723d6c81f625e01363===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85c4371-3T2Vlh.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff2?simply_static_page=67
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff2?simply_static_page=67
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 13276 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85c4371-3T2Vlh.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:0447c6b10bbf73f97b23dcfd6e6a48510822cb6e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85c5dbe-TV4pOx.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff?simply_static_page=68
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff?simply_static_page=68
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 16276 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85c5dbe-TV4pOx.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:d33d8b5b15b7bba2cc17190dc685fe0a76d2989e===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85c781a-u0soEA.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.ttf?simply_static_page=69
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.ttf?simply_static_page=69
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 33736 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85c781a-u0soEA.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:7d849a3981a716e2ba4a84634bc57d0b8054a6a3===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85c9264-eUJ3ca.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.svg?simply_static_page=70
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.svg?simply_static_page=70
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 145515 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85c9264-eUJ3ca.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:15fa4db31448d82136c48899ffa05423ff3f6e2b===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85cb8ce-Ni41de.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.eot?simply_static_page=71
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.eot?simply_static_page=71
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 203030 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85cb8ce-Ni41de.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:b18bdd10beee0a20231aa4c9ea11e84a9307a4fd===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85cdaa0-XFeQk1.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff2?simply_static_page=72
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff2?simply_static_page=72
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 78196 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85cdaa0-XFeQk1.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:a9922842a120a7f1eaced667480c5e185a106d69===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85cf1c7-byGMAd.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff?simply_static_page=73
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff?simply_static_page=73
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 101652 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85cf1c7-byGMAd.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:52751432ded489dfdf27fb1cf64c570c4c27a1d7===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85d0c49-03FlMZ.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.ttf?simply_static_page=74
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.ttf?simply_static_page=74
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 202744 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85d0c49-03FlMZ.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:c1b9fae262f42868c075ac865a8ab34920e20a2c===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 75
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/68033a85d2bd9-jEYujM.tmp
+[2025-04-19 05:54:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.svg?simply_static_page=75
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.svg?simply_static_page=75
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:103] Filesize: 346 bytes
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/68033a85d2bd9-jEYujM.tmp to /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-04-19 05:54:13] [class-ss-page.php:119] Checking Content Identical:b86600b090fa249c47136c99a952f6e737954d92===. Value: FALSE
+[2025-04-19 05:54:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 40 of 75 pages/files
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-04-19 05:54:13] [class-ss-fetch-urls-task.php:69] Total pages: 75; Pages remaining: 0
+[2025-04-19 05:54:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 75 of 75 pages/files
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: index.html
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: about/index.html
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/about
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: tsnr-2026/index.html
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/tsnr-2026
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: bylaws/index.html
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/bylaws
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: officer-elections/index.html
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/officer-elections
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM.png
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/Screenshot-2025-04-18-at-10.44.24 PM-300x199.png
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/images/banner.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/images
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/woodlands2-scaled.avif
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/woodlands2-300x199.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/woodlands2-1024x680.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/woodlands2-768x510.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/woodlands2-1536x1020.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/uploads/2025/04/woodlands2-2048x1360.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/uploads/2025/04
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/images/about.jpg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/images
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/js/jquery/jquery.min.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/js/jquery
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/js/jquery/jquery-migrate.min.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/js/jquery
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/js/wow.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/js/jquery-sticky.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/js/dist/script-modules/block-library/navigation
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/js/script.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/blocks/navigation/style.min.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/blocks/navigation
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/blocks/cover/style.min.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/blocks/cover
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/blocks/social-links/style.min.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/blocks/social-links
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/style.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/style.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/css/all.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/css/animate.css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/css
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-includes/js/dist/script-modules/interactivity
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Light.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/fonts/Roboto
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Regular.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/fonts/Roboto
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Medium.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/fonts/Roboto
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/fonts/Roboto/Roboto-Bold.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/fonts/Roboto
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:66. Processed Pages: 50
+[2025-04-19 05:54:13] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 66 files
+[2025-04-19 05:54:13] [trait-can-process-pages.php:114] Total pages: 66; Pages remaining: 16
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:212] We're not done with the transfer_files_locally task yet
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-04-19 05:54:13] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencyflow/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencyflow/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.eot
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff2
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.woff
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.ttf
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-brands-400.svg
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:13] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.eot
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff2
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.woff
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.ttf
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-regular-400.svg
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.eot
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff2
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.woff
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.ttf
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: wp-content/themes/agencygrove/assets/font-awesome/webfonts/fa-solid-900.svg
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /deploy/wp-content/themes/agencygrove/assets/font-awesome/webfonts
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:66. Processed Pages: 66
+[2025-04-19 05:54:14] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 66 of 66 files
+[2025-04-19 05:54:14] [trait-can-process-pages.php:114] Total pages: 66; Pages remaining: 0
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-04-19 05:54:14] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at /var/www/html/wp-content/uploads/simply-static/temp-files/simply-static-1-1745042052/404/index.html
+[2025-04-19 05:54:14] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-04-19 05:54:14] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-04-19 05:54:14] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-04-19 05:54:14] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-04-19 05:54:14] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-04-19 05:54:14] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-04-19 05:54:14] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-04-19 05:54:14] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:02
