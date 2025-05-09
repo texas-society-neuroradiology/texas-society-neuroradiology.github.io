@@ -11,7 +11,7 @@ password:
 
 2. Run the docker compose file using `docker compose up -d`. This will start two containers (the backend sql database and the webserver to access Wordpress)
 
-3. Make edits to the Wordpress website at `localhost:80`
+3. Make edits to the Wordpress website at `localhost:80/admin`. Login using the username: dsalmon and the password I've secretly shared with you. 
 
 4. Download the website using the `SimplyStatic` plugin on wordpress. This will place the website in the `deploy` folder of the Github Repo
 
