@@ -2,7 +2,7 @@
 TSNR's Public Website Hosting
 
 username: dsalmon
-password: 
+password: Password is saved in your personal KeePass file.
 
 
 ## Steps to Edit the Website:
